@@ -1,8 +1,8 @@
-from src.direction import Direction
-from src.door import Door
-from src.maze import Maze
-from src.room import Room
-from src.wall import Wall
+from src.classes.direction import Direction
+from src.classes.door import Door
+from src.classes.maze import Maze
+from src.classes.room import Room
+from src.classes.wall import Wall
 
 
 class MazeGame:
