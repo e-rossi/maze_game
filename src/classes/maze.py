@@ -7,5 +7,6 @@ class Maze:
         # use roomNumber as lookup value to retrieve room object
         self.rooms[room.roomNumber] = room
 
-    def room_no(self, room_number):
-        return self.rooms[room_number]
+    # room_no getter
+    def room_no(self, room_no):
+        return self.rooms[room_no]
